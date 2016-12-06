@@ -26,6 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-its', '~> 1.2'
   spec.add_development_dependency 'sinatra', '~> 1.4'
 
-  spec.add_dependency 'rest-client', '~> 1.8'
-  spec.add_dependency 'rack', '~> 1.6'
+  spec.add_dependency 'rest-client', '>= 1.8', '< 2.1.0'
+  spec.add_dependency 'rack', '>= 1.6', '< 2.1.0'
 end
